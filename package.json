@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@ui5/cli": "^3.1.2"
+  },
+  "name": "walkthrough",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
