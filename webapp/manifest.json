@@ -1,5 +1,5 @@
 {
-    "_version": "1.2.0",
+    "_version": "1.21.0",
     "sap.app": {
         "id": "sap.ui.demo.walkthrough",
         "type": "application",
@@ -32,19 +32,27 @@
             }
         },
         "models": {
-            "i18n":{
+            "i18n": {
                 "type": "sap.ui.model.resource.ResourceModel",
                 "settings": {
                     "bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
-                    "supportedLocales": [""],
+                    "supportedLocales": [
+                        ""
+                    ],
                     "fallbackLocale": ""
                 }
+            },
+            "resources": {
+                "css": [
+                    {
+                        "uri": "css/style.css"
+                    }
+                ]
+            },
+            "invoice": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "Invoices.json"
             }
-        },
-        "resources":{
-            "css": [{
-                "uri": "css/style.css"
-            }]
         }
     }
 }
